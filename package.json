@@ -1,0 +1,15 @@
+{
+  "name": "grader",
+  "version": "2.0.0",
+  "description": "Grader — учёт оценок: авторизация по почте/паролю, GPA, хранение в Postgres (Neon), логи",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
